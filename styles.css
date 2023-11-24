@@ -12,7 +12,22 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+#logo {
+    max-width: 100px; 
+    margin-right: 10px; 
+}
+
+h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: left; 
+    margin-left: 14cm; 
+}
+
 
 section {
     margin: 20px;
@@ -109,7 +124,7 @@ li.completed {
 #tarefas-concluidas-section {
     width: 48%;
     margin-right: 20px;
-    overflow-y: auto; /* Adicionado para permitir a rolagem vertical */
+    overflow-y: auto;
 }
 #tarefas-pendentes, #tarefas-concluidas-hoje {
     margin: 0;
@@ -117,54 +132,34 @@ li.completed {
     border: 2px solid #3498db;
     border-radius: 10px;
     background-color: #ecf0f1;
-    overflow-y: auto; /* Adicionado para rolagem vertical */
-    max-height: 300px; /* Adicionado para limitar a altura */
+    overflow-y: auto;
+    max-height: 300px;
 }
 footer {
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto no rodapé */
-    text-align: center; /* Centralizar o texto */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
     padding: 10px;
 }
 
 footer p {
-    margin: 0; /* Remover margens padrão */
+    margin: 0;
 }
 
 footer a {
-    color: #fff; /* Cor dos links no rodapé */
-    text-decoration: none; /* Remover sublinhado dos links */
-}
-
-
-footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto no rodapé */
-    text-align: center; /* Centralizar o texto */
-    padding: 10px;
-}
-
-footer p {
-    margin: 0; /* Remover margens padrão */
+    color: #fff;
+    text-decoration: none;
 }
 
 footer a {
-    color: #fff; /* Cor dos links no rodapé */
-    text-decoration: none; /* Remover sublinhado dos links */
-}
-footer a {
-    color: #3498db; /* Cor azul para o link */
-    text-decoration: none; /* Remover sublinhado dos links */
+    color: #3498db;
+    text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre o link */
+    text-decoration: underline;
 }
